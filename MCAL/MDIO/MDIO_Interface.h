@@ -60,6 +60,7 @@ Error_State  MDIO_Error_State_GetPinValue(u8 Copy_u8PinNumber,u8 Copy_u8PortNumb
 /*Toggle Pin Value Function */
 
 /*Active Pull Up Resistor Function */
+void  MDIO_VidActivePullUP(u8 Copy_u8PinNumber,u8 Copy_u8PortNumber);
 
 /*Set Nipple Direction Function */
 

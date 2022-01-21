@@ -10,7 +10,7 @@
 
 typedef unsigned char           u8 ;
 typedef unsigned short int     u16 ;
-typedef unsigned int           u32 ;
+typedef unsigned long int      u32 ;
 typedef unsigned long long int u64 ;
 typedef signed char             s8 ;
 typedef signed short int       s16 ;
@@ -25,6 +25,7 @@ typedef enum{
 	NOK=0,
 	OK
 }Error_State;
+
 #define NULL 0
 #define NULL_POINTER 1
 

@@ -300,3 +300,12 @@ Error_State MDIO_Error_State_SetNippleValue(u8 Copy_u8PinStart,u8 Copy_u8PortNum
 	}
 	return LOC_Error_State_ReturnState;
 }
+
+/*Active Pull Up Resistor Function */
+void  MDIO_VidActivePullUP(u8 Copy_u8PinNumber,u8 Copy_u8PortNumber)
+{
+	MDIO_Error_State_SetPinDirection(Copy_u8PinNumber,Copy_u8PortNumber,PIN_INPUT);
+    MDIO_Error_State_SetPinValue( Copy_u8PinNumber, Copy_u8PortNumber,PIN_HIGH);
+
+}
+
